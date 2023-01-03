@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Get APP</title>
+</head>
+<style>
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after,
+    .swiper-rtl {
+        font-size: 2rem;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #2cb5b4;
+    }
+</style>
+
+<body>
+    <!-- Header -->
+    <header class="pt-20  relative w-full bg-main-100 ">
+        <nav class="fixed w-full top-0 left-0 z-50 h-20 px-2 bg-white shadow-xl flex">
+            <div class="container flex items-center justify-end gap-8">
+                <a href="index.html" class="mr-auto"><img src="assets/images/logo.png" alt="Logo"></a>
+                <div class="navs hidden md:flex items-center gap-8">
+                    <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">Learn</a>
+                    <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">Blog</a>
+                    <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">About Us</a>
+                    <a href="index.html"
+                        class="uppercase bg-main-400 text-white px-5 py-3 rounded-lg font-semibold text-sm">Get
+                        Started</a>
+                </div>
+                <button class="toggle block md:hidden w-11 h-11 overflow-hidden"><img class="menu-close hidden"
+                        src="assets/images/close.svg" alt=""> <img src="assets/images/open.svg" class="menu-open"
+                        alt=""></button>
+            </div>
+        </nav>
+        <div
+            class="mobil-menu fixed md:hidden z-40 px-20 -translate-y-full bg-white w-full h-screen ease-in duration-100">
+            <div class=" flex flex-col items-center justify-center gap-4 h-full -mt-20">
+                <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">Learn</a>
+                <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">Blog</a>
+                <a href="index.html" class="uppercase text-main-600 font-semibold text-lg">About Us</a>
+                <a href="index.html"
+                    class="uppercase bg-main-400 text-white px-5 py-3 rounded-lg font-semibold text-sm">Get
+                    Started</a>
+            </div>
+
+        </div>
+        <div class="banner h-screen sm:h-[406px] md:h-[456px] lg:h-[556px] xl:h-[656px] bg-no-repeat bg-[right_13%_top] sm:bg-[right_3%_top] md:bg-right-top bg-cover"
+            style="background-image:url(assets/images/header-img.png)">
+            <div class="container h-full w-screen  flex items-center">
+                <div class="bg-white/70 p-4 rounded-md md:bg-transparent md:p-0">
+                    <h1
+                        class="text-main-900 text-3xl md:text-5xl lg:text-6lx xl:text-7xl font-medium leading-tight mb-4 w-full md:max-w-xl">
+                        Say
+                        goodbye to idle
+                        money.</h1>
+                    <h2 class="text-xl md:text-2xl text-shuttle-gray-600 ">Earn 4% yield with DeFi-powered saving.</h2>
+                    <div class="flex items-center mt-6 gap-8">
+                        <a href="index.html"
+                            class="uppercase bg-main-600 text-white px-5 py-3 rounded-lg font-bold text-sm shadow-lg">Get
+                            Started</a>
+                        <a href="index.html" class="text-shuttle-gray-600 underline font-semibold">Available on IOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- We make money move. -->
+    <section>
+        <div class="container my-12 md:my-16 lg:my-24 xl:my-32">
+            <h2 class="capitalize text-center text-3xl md:text-4xl lg:text-5xl font-bold text-shuttle-gray-600  mb-8">
+                We make money move.</h2>
+            <div class="flex justify-center">
+                <a href="index.html"
+                    class="uppercase bg-main-400 text-white px-5 py-3 rounded-lg font-semibold text-sm shadow-xl">Learn
+                    More</a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 items-start justify-between gap-8 md:gap-24 my-12">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <img src="assets/images/card-bg-1.png" class="max:w-64 max:h-64 aspect-square"
+                        alt="Connect your bank account and start saving in under 5 minutes.">
+                    <p class="text-center text-main-500 text-xl md:text-2xl">Connect your bank account and start saving
+                        in under 5
+                        minutes.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <img src="assets/images/card-bg-2.png" class="max:w-64 max:h-64 aspect-square"
+                        alt="Connect your bank account and start saving in under 5 minutes.">
+                    <p class="text-center text-main-500 text-xl md:text-2xl">4% APY through the power of decentralized
+                        finance.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <img src="assets/images/card-bg-3.png" class="max:w-64 max:h-64 aspect-square"
+                        alt="Connect your bank account and start saving in under 5 minutes.">
+                    <p class="text-center text-main-500 text-xl md:text-2xl">Over $5+ million earning interest safely
+                        thanks to
+                        best-in-class lending partners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How it works?  -->
+    <section class="container my-16 md:24 lg:my-32">
+        <h3 class="capitalize text-center text-3xl md:text-4xl lg:text-5xl font-bold text-shuttle-gray-600 mb-8">How it
+            works? </h3>
+        <div class="grid grid-cols-1 md:grid-cols-[1fr_280px_1fr] mb-12 gap-4">
+            <div class="justify-self-center flex flex-col  py-0 md:py-6 lg:py-12 order-2 md:order-1">
+                <div class=" p-4 md:h-52">
+                    <p class="text-east-bay-700 text-base  font-bold -mb-2">01</p>
+                    <h4 class="text-east-bay-700 text-2xl md:text-3xl  font-bold">Deposit</h4>
+                    <p class=" text-xl text-main-500 line-clamp-3">Link your bank account to add funds instantly.</p>
+                </div>
+                <div class=" p-4 md:h-52">
+                    <p class="text-east-bay-700 text-base  font-bold -mb-2">02</p>
+                    <h4 class="text-east-bay-700 text-2xl md:text-3xl  font-bold">Automate</h4>
+                    <p class=" text-xl text-main-500 line-clamp-3">Collect spare change or schedule recurring deposits.
+                    </p>
+                </div>
+            </div>
+            <img src="assets/images/iphone.png" alt="" class="mx-auto order-1 md:order-2">
+            <div class="justify-self-center flex flex-col md:py-12 order-3 md:order-3">
+                <div class=" p-4 md:h-52">
+                    <p class="text-east-bay-700 text-base  font-bold -mb-2">03</p>
+                    <h4 class="text-east-bay-700 text-2xl md:text-3xl  font-bold">Earn Yield</h4>
+                    <p class="text-xl text-main-500 line-clamp-3">Generate fixed or variable interest in real time at
+                        rates up to 20x
+                        your bank.</p>
+                </div>
+                <div class=" p-4 md:h-52">
+                    <p class="text-east-bay-700 text-base  font-bold -mb-2">04</p>
+                    <h4 class="text-east-bay-700 text-2xl md:text-3xl  font-bold">Cash Out</h4>
+                    <p class="text-xl text-main-500 line-clamp-3">Move your savings in and out freely with no fees or
+                        fixed terms.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <a href="index.html"
+                class="uppercase bg-main-400 text-white px-5 py-3 rounded-lg font-semibold text-sm shadow-xl">
+                Get Started</a>
+        </div>
+    </section>
+
+
+    <!-- As featured in... -->
+    <section class="my-12 md:my-24 bg-main-100 py-12">
+        <h4 class="capitalize text-center text-2xl font-bold text-east-bay-700 mb-4">As featured in...</h4>
+        <div class="container flex flex-col md:flex-row items-center justify-between gap-4 px-6">
+            <img src="assets/images/logos-1.png" class="w-32 md:w-auto" alt="Logo 1">
+            <img src="assets/images/logos-2.png" class="w-32 md:w-auto" alt="Logo 2">
+            <img src="assets/images/logos-3.png" class="w-32 md:w-auto" alt="Logo 3">
+            <img src="assets/images/logos-4.png" class="w-32 md:w-auto" alt="Logo 4">
+        </div>
+    </section>
+
+    <!-- It’s easy, it’s fun -->
+    <section class="my-16">
+        <div class="container">
+            <h5 class="capitalize text-center text-3xl md:text-4xl lg:text-5xl font-bold text-shuttle-gray-600  mb-8">
+                “It’s easy, it’s fun, and
+                it’s got charm to burn.”</h5>
+            <p class="capitalize text-center text-xl font-bold text-shuttle-gray-600  mb-0">MossCow</p>
+            <p class="capitalize text-center text-md font-bold text-main-500">App Store review</p>
+        </div>
+        <div class="my-12 md:my-24">
+            <div class="swiper mySwiper container pb-12">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-1.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Darrell Steward</p>
+                                <p class="text-sm text-east-bay-400">Art-director</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“I earned my first $50 in no time and it didn’t even feel
+                            like
+                            investing because I was using
+                            the roundup feature.”</p>
+                    </div>
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-2.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Kathryn Murphy</p>
+                                <p class="text-sm text-east-bay-400">School teacher</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“Where to start? I have been using the Get app since it
+                            was in Beta mode and have had zero problems.”</p>
+                    </div>
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-3.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Eleanor Pena</p>
+                                <p class="text-sm text-east-bay-400">Administartor</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“Donec auctor elit placerat enim convallis dignissim.
+                            Cras at lorem turpis. Phasellus tincidunt porta augue, nec tempor mauris ultrices luctus.”
+                        </p>
+                    </div>
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-3.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Ciaran Jonathan</p>
+                                <p class="text-sm text-east-bay-400">Administartor</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“Quisque cursus, mauris nec lacinia aliquam, justo purus
+                            facilisis ipsum, ac imperdiet lectus nulla vestibulum velit. Phasellus eu arcu eros.”
+                        </p>
+                    </div>
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-3.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Hugo Floyd</p>
+                                <p class="text-sm text-east-bay-400">Administartor</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“Donec id felis mauris. Duis eu fermentum tortor. Integer
+                            maximus est sodales molestie aliquam. Sed ut facilisis dolor.”
+                        </p>
+                    </div>
+                    <div class="swiper-slide h-auto px-24 py-14 bg-main-100 border-4 border-main-200">
+                        <div class="flex items-center gap-4 mb-2">
+                            <img src="assets/images/Avatar-3.png" class="w-16 h-16 rounded-full" alt="Customer">
+                            <div>
+                                <p class="font-bold text-east-bay-700 text-sm">Rosanna Garcia</p>
+                                <p class="text-sm text-east-bay-400">Administartor</p>
+                            </div>
+                        </div>
+                        <p class="text-main-700 font-semibold">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec porta ultricies sagittis..”
+                        </p>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next text-main-500  bg-white w-12 h-12 right-4 -mt-8"></div>
+                <div class="swiper-button-prev text-main-500 bg-white w-12 h-12 left-4 -mt-8"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introducing Get APP Fixed  -->
+
+    <section class=" my-12 md:my-24">
+        <div class="container block md:grid grid-cols-2 gap-2  px-0 md:px-2 ">
+            <div class="mb-8 md:mb-0 px-4 md:px-0">
+                <div class="flex gap-2 justify-center md:justify-start">
+                    <img src="assets/images/big-logo.png" class="w-48 h-48 md:w-72 md:h-72" alt="">
+                    <p class="bg-main-100/50 h-fit p-4 text-3xl rounded-md font-bold text-east-bay-800">4%</p>
+                </div>
+                <h5
+                    class="text-3xl md:text-3xl lg:text-5xl md:ml-2 md:mb-2 font-bold text-shuttle-gray-800 text-center md:text-left">
+                    Make dough,
+                    get
+                    app. </h5>
+                <p class="mb-4 md:mb-8 md:ml-2 font-medium text-main-500 text-center md:text-left">Join Get APP and
+                    start investing in minutes.
+                </p>
+                <a href="index.html"
+                    class="uppercase md:mx-2 bg-main-400 text-white  px-5 py-3 rounded-lg font-semibold text-sm shadow-xl flex w-fit mx-auto">
+                    Get Started</a>
+            </div>
+            <div class="relative">
+                <h5
+                    class="text-3xl md:text-3xl lg:text-5xl md:ml-2 md:mb-2  px-4 md:px-0 font-bold text-shuttle-gray-800 text-center md:text-left">
+                    Introducing Get APP Fixed </h5>
+                <p class="mb-8 md:ml-2 font-medium text-main-500 px-4 md:px-0 text-center md:text-left">Earn predictable
+                    4% fixed APY with the
+                    power of DeFi
+                </p>
+                <img src="assets/images/computer.png" class="w-10/12 mx-auto md:w-full " alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="bg-east-bay-600">
+        <div class="container grid grid-cols-2 md:grid-cols-4 gap-6 py-8">
+            <div><img src="assets/images/logo-white.png" class="w-44" alt=""></div>
+            <div class="flex flex-col gap-2">
+                <h6 class="text-white text-base font-medium uppercase">Product</h6>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Home</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Learn</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Blog</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">About Us</a>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h6 class="text-white text-base font-medium uppercase">Information</h6>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Transparency</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Help</a>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h6 class="text-white text-base font-medium uppercase">BE SOCIAL</h6>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Facebook</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Twitter</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Instagram</a>
+                <a href="index.html" class="text-sm text-east-bay-200 font-semibold">Linkedin</a>
+            </div>
+        </div>
+        <div class="border-t-2 border-white py-2 text-center">
+            <span class="text-east-bay-50">Developed By </span><a href="https://www.linkedin.com/in/tarikcekirge/"
+                target="_blank" class="text-east-bay-100 font-bold">Tarık
+                Çekirge</a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                },
+                "@0.75": {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                },
+                "@1.00": {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                "@1.50": {
+                    slidesPerView: 3,
+                    spaceBetween: 24,
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>
